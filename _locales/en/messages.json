@@ -1,0 +1,36 @@
+{
+  "extensionName": {
+    "message": "Birthday Reminder",
+    "description": "Birthday Reminder"
+  },
+
+  "extensionDescription": {
+    "message": "Birthday Reminder shows a list of upcoming birthdays for all contacts in Thunderbird's addressbook.",
+    "description": "Shows upcoming birthdays"
+  },
+
+  "headerDays": {
+    "message": "Days",
+    "description": "Days Tableheader."
+  },
+  
+    "headerName": {
+    "message": "Name",
+    "description": "Name Tableheader."
+  },
+  
+    "headerAge": {
+    "message": "Age",
+    "description": "Age Tableheader."
+  },
+  
+    "headerBirthday": {
+    "message": "Birthday",
+    "description": "Birthday Tableheader"
+  },
+  
+    "headerEMail": {
+    "message": "E-Mail",
+    "description": "E-Mail Tableheader."
+  }
+}

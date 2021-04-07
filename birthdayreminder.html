@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <title>Birthday Reminder</title>
+  <!-- <link rel="stylesheet" href="extension.css" media="screen" type="text/css"></style> --> <!-- must be made exchangeable  chrome://browser/content/extension.css  chrome://browser/content/extension-mac.css -->
+  <!-- <link rel="stylesheet" href="chrome://messenger/skin/shared/messenger.css" media="screen" type="text/css"></style>--> 
+  <!-- <link rel="stylesheet" href="chrome://messenger/content/messenger.css" media="screen" type="text/css"></style>--> 
+  <!-- <link rel="stylesheet" href="chrome://global/skin/close-icon.css" media="screen" type="text/css"></style>--> 
+  <!-- <link rel="stylesheet" href="chrome://messenger/skin/shared/themeableDialog.css" media="screen" type="text/css"></style> -->
+  <!-- <link rel="stylesheet" href="chrome://global/content/widgets.css" media="screen" type="text/css"></style> -->  
+  <link rel="stylesheet" href="birthdayreminder.css" media="screen" type="text/css"></style>
+  <script type="module" src="scripts/birthdayreminder.js" type="application/javascript"></script>
+</head>
+<body>
+    <div id="wrapper"></div>
+	<!--<input id="button_ok" type="button" data="ok" value="OK">-->
+	<!--<input id="button_cancel" type="button" class="extension-button" data="cancel" value="CANCEL">-->
+	<button id="button_cancel" type="button" class="browser-style">Close</button>
+	<!-- https://thunderbird.topicbox.com/groups/addons/T0c772f041ae8ca7b cause for Exception on cancel-->
+
+    <script type="module" src="scripts/birthdayreminderGrid.js"></script>
+</body>
+</html>

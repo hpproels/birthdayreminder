@@ -1,0 +1,105 @@
+/*body { background-color: rgb(244, 253, 255);
+	font-family: 'Segoe UI',Tahoma, Geneva, Helvetica, Verdana, sans-serif;
+	color: rgb(0, 0, 0);
+	font-weight: normal;
+	font-style: normal;
+	text-transform: none;
+	text-align: justify;
+	margin:0%;
+	padding:0%;
+}*/
+
+
+/* Global */
+html,
+body {
+  background: transparent;
+  box-sizing: border-box;
+  color: #222426;
+  cursor: default;
+  display: flex;
+  flex-direction: column;
+  font: caption;
+  font-size: inherit;
+  margin: 0;
+  padding: 5px;
+  user-select: none;
+}
+
+body * {
+  box-sizing: border-box;
+  text-align: start;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto auto auto;
+	/*grid-gap: 10px;*/
+	/*background-color: #2196F3;*/
+	background-color: inherit;
+	padding: 10px;
+	/*resize: both;*/
+	overflow: auto;
+}
+
+.grid-item {
+  background-color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  /*font-size: 9px;*/
+  text-align: center;
+}
+
+button.browser-style{
+	font-family: inherit;
+	font-size: 1.0em;
+	box-sizing: border-box;
+	
+	overflow: hidden;
+	white-space: nowrap;
+	text-shadow: none;
+	
+	box-shadow: 0 1px 0 hsla(0, 100%, 100%, .2) inset,
+			  0 -1px 0 hsla(0, 0%, 0%, .1) inset,
+			  0 1px 0 hsla(206, 50%, 10%, .2);
+	text-align: center;
+	align-self: start;
+	justify-self: end;
+	background-position: center;
+	overflow: auto;
+}
+
+
+/* Panel Section - Header */
+.panel-section-header {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  padding: 16px;
+}
+
+.panel-section-header > .icon-section-header {
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 32px;
+  margin-right: 16px;
+  position: relative;
+  width: 32px;
+}
+
+.panel-section-header > .text-section-header {
+  align-self: center;
+  font-size: 1.385em;
+  font-weight: lighter;
+}
+
+/* Panel Section - List */
+
+.panel-list-item:not(.disabled):hover {
+  background-color: rgba(0, 0, 0, 0.06);
+  border-block: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.panel-list-item:not(.disabled):hover:active {
+  background-color: rgba(0, 0, 0, 0.1);
+}

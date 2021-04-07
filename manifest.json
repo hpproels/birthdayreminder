@@ -1,0 +1,35 @@
+{
+  "manifest_version": 2,
+  "name": "__MSG_extensionName__",
+  "version": "1.0",
+  "description": "__MSG_extensionDescription__",
+  "author": "HPP",
+  "applications": {
+	"gecko": {
+		"id": "mckeen3000@gmail.com",
+		"strict_min_version": "78.0"
+	}
+  },
+  "icons": {
+	"16": "images/birthdayreminder_dark.svg",
+	"24": "images/birthdayreminder_dark.svg",
+	"48": "images/birthdayreminder_dark.svg",
+	"72": "images/birthdayreminder_dark.svg",
+	"96": "images/birthdayreminder_dark.svg"
+  },  
+  "browser_action": {
+	"theme_icons": [{
+        "light": "images/birthdayreminder.svg",
+        "dark": "images/birthdayreminder_dark.svg",
+        "size": 24
+    }],
+    "default_title": "Birthday Reminder"
+  },
+  "background": {
+    "scripts": [
+      "scripts/background.js"
+    ]
+  },
+  "permissions": ["addressBooks"],
+  "default_locale": "en"
+}
